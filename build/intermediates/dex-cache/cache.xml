@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_c6e513fdad2e621925578cd39245422815c6204d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_828f1adb18a1da7e0d23fea8f9c6368a66e1c118\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_100de9f7e8ee5043e5dda582710abcb0afc2171b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_e2e9329b4ee007a1c9126f96a6795ab23a543e37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-8.4.0_1f4a66c8af657487d7dce6fcea1f750dcf8fa5a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\2\ksoap2-android-assembly-3.0.0-jar-with-dependencies_7eef5b53f67ce18a804f33c40263531819bcf2d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_cf8f59a58e3ddd91eb1decab2c473f51fb182850\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.4.0_d8aaadeeeaad07480cf2e9bf05a8eab7c9cf9ac8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_a51c94f060c8d06793f4be0f07785deb98f67ad3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_7281755807c3e6485f6002fd15c8a41fea24049f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_cfaab1d2bc81b6463e64a23c9c18778ea0490c4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_36ac6a71033832e714e52a8d0669382974d3fd35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-8.4.0_14606eca91b7dbbb389f796d31eac6ccbb73a775\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\libs\additionnal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\2\additionnal_a3055228d9835ab2a386652b1a0cf3451dec409f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_8ecc146069bb9fca000e8358fca042f629271221\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\libs\activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\2\activation_103c84a6dd66fd66b91a5e17b773ca97df06b435\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_314733e10609f0e234c0fd94cc63224260977182\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_ec0ea821798d175a58ee1b431cfab08b61fb2ccd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_a571aacd6d74383be7b5565e0228003240b0ef71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_a759c102a5991f50d2f1d43c812bf14398110af7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_11a66b0ea36fcba07e15cd74fb329a4117ba6761\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_dac8dfbf67278d45c3b0eb109f0b0bbfc30e5c69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-8.4.0_78b2233b145aae1020dbfabbbba7af9d6018b072\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.9_02b2aef21b3c4535f844ade415950f451906092f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_e17560c373cb8d11298d49ee514e4a425283b41d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_df148ff57337e810ce5923b4c5db2988864a0e97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_ed24b8148f59b994069c50b684a8d14ba125c524\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68e0a4e4f2288df83d88a881882b55954758d17f">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1afae96c46f39fd245e0b8a8101e15407aae5ab3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_7f3804f5b2fe81bb4ccdd42e091f677e2d976596\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.4.0_806fa5b9f01d75c78d06a53334b3b0a5d99050ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_f2e3fbafef80491c4afb2dbd2d25d0e89e7ccc9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tsysinfo\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_e33dfc622f8ab1e0a5c27c9e3dec23be1d17594e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_de212908417ba49111e1d564f63218d588037df5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-8.4.0_0ddb57b5b05dd7ac51249cbf2e7aeeb81a43b878\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\libs\btsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f6b84f6fbcfbf895952b8e0c007ec5d0fce9bc9">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\2\btsdk_b42e427d5379b5b636e8abe06391242d973b307e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_18844935a83a7dff38f413d3891dfe2abf80ddc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_1eff5496e6ce1708d373f74cb93b332b11154354\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_265bac3811b388f87ff0f7795f6e288b3830662e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_ffea1b8bef3b33433d23821512295f8932c1dcab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e1df5b0d6ceae21dd7974a0b504fc39fa5e91ee">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7b909731102d6e92a13c8644ee381791531e933c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_a721efddd332d44ed5fe23699fc1e4eda95795f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_694111997c97f3639f644f9c7e8a81d0ad287d2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.9\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="760ff0a866a9b3b7fe4a91cfe6439d9dc93cea7c">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zxing-1.9_d0992d4fbad5134861c00706125e576abdf99925\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_3bdffe902e617d5e6a32d7af6b190cbeb50b1ca7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_c608fdb79ed0d0706f4f684c7c7843bc5a69cf3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_65a687426558b28a1ae7a2b515b1b9e27f63117c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_464ac8dd168c850dd77d2d3c4e02c67cf32482f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_0a3fdda09ad52cfc6ffc49c6a511c4a7d79c2f1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_2267cc1b758e824bb647b180a584bff4133fba9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_248eab9c7ed539f51cdb5657d0af1e166c78f3f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_58024320c3a690e652ba9030e96e4892712958a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\libs\mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\2\mail_642683a4436fbaeff28016c8f09014de498a53b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Worrkspace\Billing India\Billing\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="E:\Worrkspace\Billing India\Billing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_ee8518b308f37c9f87d3275c5e31ccf77b00850c\classes.dex" />
+    </item>
+
+</items>

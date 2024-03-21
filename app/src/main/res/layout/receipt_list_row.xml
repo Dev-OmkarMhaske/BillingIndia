@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f0f0"
+    android:elevation="4dp"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Bill No:"
+                    android:textColor="@color/water"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/billNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1234"
+                    android:textColor="@color/water"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Bill Date:"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/billDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23/03/2016"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Total Amount:"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/totalAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500000"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Balance Amount:"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/balanceAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500000"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center|left"
+                android:orientation="horizontal" >
+
+
+                <EditText
+                    android:id="@+id/editPayAmt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_10sdp"
+                    android:ems="12"
+                    android:visibility="visible"
+                    android:hint="Enter Amount"
+                    android:background="@drawable/squre"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:descendantFocusability="blocksDescendants"
+                    android:inputType="text"
+                    android:enabled="true"
+                    android:padding="2dp"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+                <!--<EditText
+                    android:id="@+id/editPayAmt"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="  Enter Pay Amount  "
+                    android:enabled="true"
+                    android:textSize="12sp"
+                    android:inputType="numberDecimal"
+                    />-->
+
+
+
+                <TextView
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please Allocate"
+                    android:visibility="visible"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#343434"
+                    android:layout_marginRight="5dp"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:layout_gravity="left|center"
+                    android:gravity="right|center">
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:gravity="right|center"
+                        android:focusableInTouchMode="false"
+                        android:layout_gravity="left|center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

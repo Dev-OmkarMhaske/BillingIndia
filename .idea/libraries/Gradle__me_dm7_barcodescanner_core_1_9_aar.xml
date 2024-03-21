@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: me.dm7.barcodescanner:core:1.9@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/736e7f73bc07043dfcc62d80da293a68/transformed/core-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/736e7f73bc07043dfcc62d80da293a68/transformed/core-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/736e7f73bc07043dfcc62d80da293a68/transformed/core-1.9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

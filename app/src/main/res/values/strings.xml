@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="cameraPreviewShouldFillView">true</bool>
+    <string name="app_name">Billing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="footer">Powered By:iStream E Solutions. \nVersion: 1.75.0</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="footer1">Version: 1.75.0</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="btnSearch">Connect  Bluetooth  Printer</string>
+    <string name="btnSend">Print</string>
+    <string name="btn_test">Print  Test  Page</string>
+    <string name="btnClose">Close</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="menu_settings">set</string>
+    <string name="strLang">en</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="scanner_activity">Ebilling - Full Activity</string>
+    <string name="scanner_fragment_activity">Ebilling - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">Ebilling - Simple Activity</string>
+    <string name="custom_view_finder_scanner_activity">Ebilling - Custom View Finder Activity</string>
+    <string name="scaling_scanner_activity">Ebilling - Scaling Activity</string>
+    <string name="simple_scanner_fragment_activity">Ebilling - Simple Fragment Activity</string>
+    <string name="full_screen_scanner_fragment_activity">Ebilling - Full Screen Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="full_screen_sample">Full Screen Fragment Sample</string>
+    <string name="custom_view_finder_sample">Custom View Finder Sample</string>
+    <string name="scaling_sample">Scaling Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="nav_cust_visit">Supervisor Visit</string>
+    <string name="nav_cust_visit_status">Sales Officer Visit</string>
+    <string name="nav_list">Customer List</string>
+
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_distance">Distance</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_exit">Exit</string>
+    <string name="heading">Other Menus</string>
+    <string name="nav_cust_list">Customer List</string>
+
+    <string-array name="unit">
+        <item>Pcs</item>
+        <item>Cartoon</item>
+        <item>Box</item>
+        <item>Dozen</item>
+        <item>Set</item>
+
+    </string-array>
+    <string-array name="method">
+        <item>Cheque</item>
+        <item>Cash</item>
+
+
+    </string-array>
+
+</resources>

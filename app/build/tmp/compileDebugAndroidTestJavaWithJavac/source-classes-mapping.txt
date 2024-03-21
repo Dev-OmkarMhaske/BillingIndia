@@ -1,0 +1,2 @@
+com/tsysinfo/billing/test/BuildConfig.java
+ com.tsysinfo.billing.test.BuildConfig

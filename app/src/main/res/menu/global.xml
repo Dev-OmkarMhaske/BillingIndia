@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:icon="@drawable/sync"
+        android:title="Sync" />
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:icon="@drawable/btn_order"
+        android:title="Order List" />
+    <item
+        android:id="@+id/action_outstanding"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:icon="@drawable/btn_order"
+        android:title="Outstanding" />
+</menu>

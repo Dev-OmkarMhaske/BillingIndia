@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_boarder"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Total Amount :"
+                    android:id="@+id/txtPay"
+                    android:gravity="center"
+                    android:textColor="@color/Blue"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberDecimal"
+                    android:background="@drawable/edittextstyle"
+                    android:hint="Enter Payment Amount"
+                    android:padding="5dp"
+                    android:textColor="#343434"
+                    android:textSize="12sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/btnSave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/btn_grey"
+                        android:text="Save"
+                        android:textColor="@android:color/black"></Button>
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/btn_grey"
+                        android:text="Cancel"
+                        android:textColor="@android:color/black"></Button>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:src="@drawable/close" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fcfbfb"
+    android:orientation="horizontal"
+    android:id="@+id/linerlayout"
+    android:padding="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/DateOfReceipt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DateOfReceipt"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ChequeNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChequeNo"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ChequeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ChequeNo"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ChequeAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Billno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Billno"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Billdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Billdate"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/BillAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BillAmount"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/AllocatedAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AllocatedAmount"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Rdays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rdays"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

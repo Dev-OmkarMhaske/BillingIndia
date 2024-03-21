@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tsysinfo.billing.MainActivity" >
+
+    
+    <item
+        android:id="@+id/spinner"
+         android:title=""
+        app:actionViewClass="android.widget.Spinner"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/actionCart"
+        android:orderInCategory="2"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/actionList"
+        android:orderInCategory="2"
+        android:icon="@drawable/order2"
+        android:title="OrderList"
+        app:showAsAction="always"/>
+
+</menu>

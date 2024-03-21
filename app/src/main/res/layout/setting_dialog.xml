@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_boarder" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance(In Meters)"
+                    android:textColor="@color/grey"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="25dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/btnDecrese"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/dist_btn_eff"
+                        android:text="-"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="25dp">
+                    </Button>
+                    <TextView
+                        android:id="@+id/txtDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="4"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="1"
+                        android:padding="5dp"
+                        android:textSize="25dp" >
+                    </TextView>
+                    <Button
+                        android:id="@+id/btnIncrese"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/dist_btn_eff"
+                        android:text="+"
+                        android:textStyle="bold"
+                        android:textSize="25dp">
+                    </Button>
+                </LinearLayout>
+
+                
+                
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_grey"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="0.5"
+                    android:textColor="@android:color/black"
+                    android:text="Save" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/btn_grey"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_weight="0.5"
+                    android:text="Cancel" >
+                </Button>
+            </LinearLayout>
+            </LinearLayout>
+
+            
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageClose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:src="@drawable/close" />
+    </FrameLayout>
+
+</FrameLayout>

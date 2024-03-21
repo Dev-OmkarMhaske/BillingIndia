@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@color/cane"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="0dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_conversion_absoluteHeight="33dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/footer"
+                    android:id="@+id/textView2"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnOrder"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_order"
+                        tools:layout_conversion_absoluteX="7dp"
+                        tools:layout_conversion_absoluteY="40dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnDelivery"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_delivery"
+                        tools:layout_conversion_absoluteX="195dp"
+                        tools:layout_conversion_absoluteY="40dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnBilling"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_billing"
+                        tools:layout_conversion_absoluteX="7dp"
+                        tools:layout_conversion_absoluteY="228dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnProducts"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_product_info"
+                        tools:layout_conversion_absoluteX="195dp"
+                        tools:layout_conversion_absoluteY="228dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+            <!-- third row -->
+
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnReceipt"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_receipt"
+                        tools:layout_conversion_absoluteX="7dp"
+                        tools:layout_conversion_absoluteY="417dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnReturn"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_return"
+                        tools:layout_conversion_absoluteX="195dp"
+                        tools:layout_conversion_absoluteY="417dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+            <!-- fourth row -->
+
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnCustList"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_new_cust"
+                        tools:layout_conversion_absoluteX="7dp"
+                        tools:layout_conversion_absoluteY="605dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnSync"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_sync"
+                        tools:layout_conversion_absoluteX="195dp"
+                        tools:layout_conversion_absoluteY="605dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+            <!--   fifth row   -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/fifthRow"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="787dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_conversion_absoluteHeight="188dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnFeedBack"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_feedback" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnCustVisit"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_custvisit" />
+                </LinearLayout>
+            </LinearLayout>
+
+         <!--   sixth row   -->
+
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnDistance"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_distance"
+                        tools:layout_conversion_absoluteX="7dp"
+                        tools:layout_conversion_absoluteY="982dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnVisitStatus"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_visitstatus"
+                        tools:layout_conversion_absoluteX="195dp"
+                        tools:layout_conversion_absoluteY="982dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+            <!-- seventh row -->
+
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnHelp"
+                        style="@style/DashboardButtonLeft"
+                        android:background="@drawable/btn_help"
+                        tools:layout_conversion_absoluteX="7dp"
+                        tools:layout_conversion_absoluteY="1171dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+                    <com.tsysinfo.billing.ResizableButton
+                        android:id="@+id/btnExit"
+                        style="@style/DashboardButtonRight"
+                        android:background="@drawable/btn_exit"
+                        tools:layout_conversion_absoluteX="195dp"
+                        tools:layout_conversion_absoluteY="1171dp"
+                        tools:layout_conversion_absoluteWidth="181dp"
+                        tools:layout_conversion_absoluteHeight="181dp"/>
+
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

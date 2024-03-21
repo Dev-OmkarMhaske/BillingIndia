@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="NAME:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                 />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter Name"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/TextV3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="DISTRICT:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                />
+
+            <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edittextstyle"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerDistric"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="TOWN:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:orientation="horizontal">
+
+
+            <Spinner
+                    android:id="@+id/spinnerTown"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TextView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="PLACE:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                />
+
+            <EditText
+                android:id="@+id/editPlace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/edittextstyle"
+                android:layout_marginRight="5dp"
+
+                android:ems="10"
+                android:hint="Enter Place"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TextView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="ADDRESS:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Enter Address"
+                android:maxLines="10"
+                android:minLines="3"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="REGISTRATION NUMBER:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editRegNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter Registration No."
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="TIN:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editTIN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter TIN."
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="PIN:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editPIN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter PIN"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="CST:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editCST"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter CST"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="SHORT NAME:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editShortName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter Short Name."
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="CUSTOMER TYPE:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:orientation="horizontal">
+
+
+            <Spinner
+                    android:id="@+id/spinnerCustType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp" />
+            </LinearLayout>
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/chekBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="left|center_vertical"
+                android:text="Check for Current Loction"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="LONGITUDE:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editLongitude"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter Longitude"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="LATITUDE:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editLatitude"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter Latitude"
+                android:inputType="numberDecimal"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="MOBILE NUMBER:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:digits="1234567890"
+                android:ems="10"
+                android:hint="Enter Mobile No"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="LAND LINE NUMBER:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editLandLineMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:digits="1234567890"
+                android:ems="10"
+                android:hint="Enter Landline No"
+                android:inputType="phone"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="IsActive :"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinnerIsActive"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+
+                    android:padding="2dp" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/editEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:hint="Enter Email id"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="CUSTOMER CODE:"
+                android:textColor="@color/Blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editCustomerCode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="Enter Customer Code"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonseffect"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="CLEAR"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonseffect"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="SAVE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

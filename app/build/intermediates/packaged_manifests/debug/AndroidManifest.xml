@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tsysinfo.billing"
+    android:versionCode="3"
+    android:versionName="1.9.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="info.devexchanges.googlelocation.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.tsysinfo.billing.LogCat"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/invoice"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity android:name="com.tsysinfo.billing.ViewExpenses" />
+        <activity
+            android:name="com.tsysinfo.billing.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tsysinfo.billing.HomePageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.tsysinfo.billing.HomePageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- <receiver android:name=".MyReceiver" /> -->
+        <!--
+        <receiver android:name=".OfflineBroadcast">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".SyncService"
+            android:enabled="true" />
+        -->
+        <!--
+            <service
+            android:name=".UpdateService"
+            android:enabled="true" />
+        -->
+        <activity
+            android:name="com.tsysinfo.billing.LoginActivity"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <activity android:name="com.tsysinfo.billing.SetIPActivity" />
+        <activity android:name="com.tsysinfo.billing.MenuActivity" />
+        <activity
+            android:name="com.tsysinfo.billing.ProductsActivity"
+            android:icon="@android:color/transparent"
+            android:label="Products"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.tsysinfo.billing.CustomerActivity"
+            android:icon="@android:color/transparent"
+            android:label="Customers" />
+        <activity
+            android:name="com.tsysinfo.billing.OrderActivity"
+            android:icon="@android:color/transparent"
+            android:label="Order"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.tsysinfo.billing.UNOrderActivity"
+            android:icon="@android:color/transparent"
+            android:label="Order"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.tsysinfo.billing.BillingActivity"
+            android:icon="@android:color/transparent"
+            android:label="Billing" />
+        <activity
+            android:name="com.tsysinfo.billing.CartActivity"
+            android:icon="@android:color/transparent"
+            android:label="Cart"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.tsysinfo.billing.UNCartActivity"
+            android:icon="@android:color/transparent"
+            android:label="Cart"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.tsysinfo.billing.CaAc"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <activity
+            android:name="com.tsysinfo.billing.DeliveryActivity"
+            android:icon="@android:color/transparent"
+            android:label="Cart" />
+        <activity
+            android:name="com.tsysinfo.billing.AddCustomerActivityNew"
+            android:label="New Cust" />
+        <activity
+            android:name="com.tsysinfo.billing.ReturnActivity"
+            android:icon="@android:color/transparent"
+            android:label="Return"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.tsysinfo.billing.RetAct"
+            android:icon="@android:color/transparent"
+            android:label="Return" />
+        <activity
+            android:name="com.tsysinfo.billing.ReceiptActivity"
+            android:icon="@android:color/transparent"
+            android:label="Receipt" />
+        <activity
+            android:name="com.tsysinfo.billing.outActivity"
+            android:icon="@android:color/transparent"
+            android:label="OutStanding" />
+        <activity
+            android:name="com.tsysinfo.billing.OutCustmerActivity"
+            android:icon="@android:color/transparent"
+            android:label="OutStanding" />
+        <activity
+            android:name="com.tsysinfo.billing.PaymentActivity"
+            android:icon="@android:color/transparent"
+            android:label="Payment" />
+        <activity
+            android:name="com.tsysinfo.billing.BillPayment"
+            android:icon="@android:color/transparent"
+            android:label="Bill Payment" />
+        <activity
+            android:name="com.tsysinfo.billing.BranchActivity"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <activity
+            android:name="com.tsysinfo.billing.MapActivity"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <activity
+            android:name="com.tsysinfo.billing.AddCustomerActivity"
+            android:icon="@android:color/transparent"
+            android:label="Customer" />
+        <activity
+            android:name="com.tsysinfo.billing.ForgotPasswordActivity"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <activity
+            android:name="com.tsysinfo.billing.Map1"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <activity
+            android:name="com.tsysinfo.billing.FeedbackActivity"
+            android:icon="@android:color/transparent"
+            android:label="Feedback" />
+        <activity
+            android:name="com.tsysinfo.billing.HelpActivity"
+            android:icon="@android:color/transparent"
+            android:label="Help" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <activity
+            android:name="com.tsysinfo.billing.CustVisitActivity"
+            android:icon="@android:color/transparent"
+            android:label="Cust Visit" />
+        <activity android:name="com.tsysinfo.billing.DeviceListActivity" />
+        <activity
+            android:name="com.tsysinfo.billing.ReturnInvoice"
+            android:icon="@android:color/transparent"
+            android:label="" />
+        <!--
+            <service
+            android:name=".GpsService"
+            android:enabled="true"
+            android:exported="true"></service>
+        -->
+        <activity
+            android:name="com.tsysinfo.billing.BarcodeScannerActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.tsysinfo.billing.BarcodePrintActivity" />
+        <activity
+            android:name="com.tsysinfo.billing.barcodes.CustomViewFinderScannerActivity"
+            android:label="@string/custom_view_finder_scanner_activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.tsysinfo.billing.barcodes.FullScannerActivity"
+            android:label="@string/scanner_activity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppOverlayTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.tsysinfo.billing.barcodes.FullScannerFragmentActivity"
+            android:label="@string/scanner_fragment_activity"
+            android:theme="@style/AppOverlayTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity android:name="com.tsysinfo.billing.FinishActivity" />
+        <activity
+            android:name="com.tsysinfo.billing.MainActivity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name="com.tsysinfo.billing.PermissionActivityActivity" />
+        <activity android:name="com.tsysinfo.billing.OrderListActivity" />
+        <activity android:name="com.tsysinfo.billing.OrderDetailsActivity" />
+        <activity android:name="com.tsysinfo.billing.ZoomImageViewActivity" />
+        <activity android:name="com.tsysinfo.billing.TownActivity" /> <!-- <activity android:name=".UncheduledOrderActivity" /> -->
+        <activity
+            android:name="com.tsysinfo.billing.GeoTagUpdatesActivity"
+            android:icon="@android:color/transparent"
+            android:label="Geotag Update" />
+        <activity
+            android:name="com.tsysinfo.billing.CustomerVisiteActivity"
+            android:icon="@android:color/transparent"
+            android:label="Customer Visit" />
+        <activity
+            android:name="com.tsysinfo.billing.DashBoardActivity"
+            android:icon="@android:color/transparent"
+            android:label="DashBoard" />
+        <activity
+            android:name="com.tsysinfo.billing.ChequeInHandActivity"
+            android:icon="@android:color/transparent"
+            android:label="ChequeInHand" />
+        <activity android:name="com.tsysinfo.billing.ExpenseActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCk9_Tw4i2t-VYhonbeB0vZk1Eu_2UQYvw" />
+
+        <receiver android:name="com.tsysinfo.billing.AlarmReceiver" />
+        <receiver android:name="com.tsysinfo.billing.LocationReceiver" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.tsysinfo.billing.com.squareup.picasso"
+            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.tsysinfo.billing.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

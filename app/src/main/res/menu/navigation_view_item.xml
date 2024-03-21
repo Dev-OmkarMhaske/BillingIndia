@@ -1,0 +1,83 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/cust_visit"
+            android:icon="@drawable/ic_subject"
+            android:title="@string/nav_cust_visit" />
+
+        <item
+            android:id="@+id/cust_unchedule"
+            android:icon="@drawable/ic_subject"
+            android:title="UnSchedule Order" />
+
+        <item
+            android:id="@+id/cust_replacement"
+            android:icon="@drawable/ic_subject"
+            android:title="Replacement Order" />
+
+        <item
+            android:id="@+id/sync"
+            android:icon="@drawable/ic_subject"
+            android:title="Sync" />
+        <item
+            android:id="@+id/cust_visit_status"
+            android:icon="@drawable/ic_subject"
+            android:title="@string/nav_cust_visit_status" />
+        <item
+            android:id="@+id/custList"
+            android:icon="@drawable/ic_subject"
+            android:title="@string/nav_cust_list" />
+        <item
+            android:id="@+id/townList"
+            android:icon="@drawable/ic_subject"
+            android:title="Town List" />
+
+        <item
+            android:id="@+id/GeoTagUpdates"
+            android:icon="@drawable/ic_subject"
+            android:title="Geotag Update" />
+        <item
+            android:id="@+id/CustmerVisite"
+            android:icon="@drawable/ic_subject"
+            android:title="Customer Visit" />
+
+        <item
+            android:id="@+id/dash_board"
+            android:icon="@drawable/ic_subject"
+            android:title="DashBoard" />
+
+        <item
+            android:id="@+id/expense"
+            android:icon="@drawable/ic_subject"
+            android:title="Expense " />
+
+
+        <item
+            android:id="@+id/getexpense"
+            android:icon="@drawable/ic_subject"
+            android:title="View Expense " />
+    </group>
+
+    <item
+        android:id="@+id/navigation_view_category_2"
+        android:title="@string/heading">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_subject"
+                android:title="@string/nav_feedback" />
+            <item
+                android:id="@+id/distance"
+                android:icon="@drawable/ic_subject"
+                android:title="@string/nav_distance" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_subject"
+                android:title="@string/nav_help" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_subject"
+                android:title="@string/nav_exit" />
+        </menu>
+    </item>
+</menu>

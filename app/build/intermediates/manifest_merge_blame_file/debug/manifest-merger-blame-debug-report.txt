@@ -1,0 +1,624 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tsysinfo.billing"
+4    android:versionCode="3"
+5    android:versionName="1.9.0" >
+6
+7    <uses-sdk
+7-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:262:5-264:41
+8        android:minSdkVersion="15"
+8-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:263:9-34
+9        android:targetSdkVersion="26" />
+9-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:264:9-38
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:243:5-68
+11-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:243:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:244:5-74
+12-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:244:22-71
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:245:5-75
+13-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:245:22-72
+14    <uses-permission android:name="android.permission.SEND_SMS" />
+14-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:246:5-67
+14-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:246:22-64
+15    <uses-permission android:name="android.permission.READ_LOGS" />
+15-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:247:5-249:47
+15-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:248:9-52
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:250:5-81
+16-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:250:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:251:5-79
+17-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:251:22-76
+18    <uses-permission android:name="info.devexchanges.googlelocation.permission.MAPS_RECEIVE" />
+18-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:252:5-96
+18-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:252:22-93
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:253:5-67
+19-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:253:22-64
+20    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+20-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:254:5-79
+20-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:254:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:255:5-81
+21-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:255:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:256:5-79
+22-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:256:22-76
+23    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+23-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:257:5-74
+23-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:257:22-71
+24    <uses-permission android:name="android.permission.ACCESS_GPS" />
+24-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:258:5-69
+24-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:258:22-66
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:259:5-65
+25-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:259:22-62
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:260:5-80
+26-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:260:22-77
+27
+28    <!-- Permissions required for GCM -->
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.android.gms:play-services-gcm:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\52f499f3e0b9ea1f5cae7011a167d4bc\transformed\play-services-gcm-8.4.0\AndroidManifest.xml:21:5-82
+29-->[com.google.android.gms:play-services-gcm:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\52f499f3e0b9ea1f5cae7011a167d4bc\transformed\play-services-gcm-8.4.0\AndroidManifest.xml:21:22-79
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\122d8637578eea2de2b650c22586cbb3\transformed\play-services-maps-8.4.0\AndroidManifest.xml:22:5-24:33
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\122d8637578eea2de2b650c22586cbb3\transformed\play-services-maps-8.4.0\AndroidManifest.xml:23:8-40
+33        android:required="true" /> <!-- Optional permission for App measurement to run. -->
+33-->[com.google.android.gms:play-services-maps:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\122d8637578eea2de2b650c22586cbb3\transformed\play-services-maps-8.4.0\AndroidManifest.xml:24:8-31
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:24:5-67
+34-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:24:22-65
+35
+36    <application
+36-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:8:5-241:19
+37        android:name="com.tsysinfo.billing.LogCat"
+37-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:9:9-31
+38        android:allowBackup="true"
+38-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:10:9-35
+39        android:debuggable="true"
+40        android:icon="@drawable/invoice"
+40-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:11:9-41
+41        android:label="@string/app_name"
+41-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:12:9-41
+42        android:largeHeap="true"
+42-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:13:9-33
+43        android:theme="@style/CustomActionBarTheme" >
+43-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:14:9-52
+44        <activity android:name="com.tsysinfo.billing.ViewExpenses" />
+44-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:15:9-59
+44-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:15:19-47
+45        <activity
+45-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:17:9-26:20
+46            android:name="com.tsysinfo.billing.SplashActivity"
+46-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:18:13-43
+47            android:label="@string/app_name"
+47-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:19:13-45
+48            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+48-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:20:13-83
+49            <intent-filter>
+49-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:21:13-25:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:22:17-69
+50-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:22:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:24:17-77
+52-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:24:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:27:9-35:20
+56            android:name="com.tsysinfo.billing.HomePageActivity"
+56-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:28:13-45
+57            android:label="@string/app_name" >
+57-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:29:13-45
+58            <intent-filter>
+58-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:30:13-34:29
+59                <action android:name="com.tsysinfo.billing.HomePageActivity" />
+59-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:31:17-80
+59-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:31:25-77
+60
+61                <category android:name="android.intent.category.DEFAULT" />
+61-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:33:17-76
+61-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:33:27-73
+62            </intent-filter>
+63        </activity> <!-- <receiver android:name=".MyReceiver" /> -->
+64        <!--
+65        <receiver android:name=".OfflineBroadcast">
+66            <intent-filter>
+67                <action android:name="android.net.wifi.STATE_CHANGE" />
+68                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+69            </intent-filter>
+70        </receiver>
+71
+72        <service
+73            android:name=".SyncService"
+74            android:enabled="true" />
+75        -->
+76        <!--
+77            <service
+78            android:name=".UpdateService"
+79            android:enabled="true" />
+80        -->
+81        <activity
+81-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:53:9-56:32
+82            android:name="com.tsysinfo.billing.LoginActivity"
+82-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:54:13-42
+83            android:icon="@android:color/transparent"
+83-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:55:13-54
+84            android:label="" />
+84-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:56:13-29
+85        <activity android:name="com.tsysinfo.billing.SetIPActivity" />
+85-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:57:9-51
+85-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:57:19-48
+86        <activity android:name="com.tsysinfo.billing.MenuActivity" />
+86-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:58:9-50
+86-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:58:19-47
+87        <activity
+87-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:59:9-63:70
+88            android:name="com.tsysinfo.billing.ProductsActivity"
+88-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:60:13-45
+89            android:icon="@android:color/transparent"
+89-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:61:13-54
+90            android:label="Products"
+90-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:62:13-37
+91            android:windowSoftInputMode="stateHidden|adjustResize" />
+91-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:63:13-67
+92        <activity
+92-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:64:9-67:41
+93            android:name="com.tsysinfo.billing.CustomerActivity"
+93-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:65:13-45
+94            android:icon="@android:color/transparent"
+94-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:66:13-54
+95            android:label="Customers" />
+95-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:67:13-38
+96        <activity
+96-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:68:9-72:70
+97            android:name="com.tsysinfo.billing.OrderActivity"
+97-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:69:13-42
+98            android:icon="@android:color/transparent"
+98-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:70:13-54
+99            android:label="Order"
+99-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:71:13-34
+100            android:windowSoftInputMode="stateHidden|adjustResize" />
+100-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:72:13-67
+101        <activity
+101-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:73:9-77:70
+102            android:name="com.tsysinfo.billing.UNOrderActivity"
+102-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:74:13-44
+103            android:icon="@android:color/transparent"
+103-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:75:13-54
+104            android:label="Order"
+104-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:76:13-34
+105            android:windowSoftInputMode="stateHidden|adjustResize" />
+105-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:77:13-67
+106        <activity
+106-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:78:9-81:39
+107            android:name="com.tsysinfo.billing.BillingActivity"
+107-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:79:13-44
+108            android:icon="@android:color/transparent"
+108-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:80:13-54
+109            android:label="Billing" />
+109-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:81:13-36
+110        <activity
+110-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:82:9-86:55
+111            android:name="com.tsysinfo.billing.CartActivity"
+111-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:83:13-41
+112            android:icon="@android:color/transparent"
+112-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:84:13-54
+113            android:label="Cart"
+113-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:85:13-33
+114            android:windowSoftInputMode="adjustPan" />
+114-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:86:13-52
+115        <activity
+115-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:87:9-91:55
+116            android:name="com.tsysinfo.billing.UNCartActivity"
+116-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:88:13-43
+117            android:icon="@android:color/transparent"
+117-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:89:13-54
+118            android:label="Cart"
+118-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:90:13-33
+119            android:windowSoftInputMode="adjustPan" />
+119-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:91:13-52
+120        <activity
+120-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:92:9-95:32
+121            android:name="com.tsysinfo.billing.CaAc"
+121-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:93:13-33
+122            android:icon="@android:color/transparent"
+122-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:94:13-54
+123            android:label="" />
+123-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:95:13-29
+124        <activity
+124-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:96:9-99:36
+125            android:name="com.tsysinfo.billing.DeliveryActivity"
+125-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:97:13-45
+126            android:icon="@android:color/transparent"
+126-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:98:13-54
+127            android:label="Cart" />
+127-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:99:13-33
+128        <activity
+128-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:100:9-102:40
+129            android:name="com.tsysinfo.billing.AddCustomerActivityNew"
+129-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:101:13-51
+130            android:label="New Cust" />
+130-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:102:13-37
+131        <activity
+131-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:103:9-107:55
+132            android:name="com.tsysinfo.billing.ReturnActivity"
+132-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:104:13-43
+133            android:icon="@android:color/transparent"
+133-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:105:13-54
+134            android:label="Return"
+134-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:106:13-35
+135            android:windowSoftInputMode="adjustPan" />
+135-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:107:13-52
+136        <activity
+136-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:108:9-111:38
+137            android:name="com.tsysinfo.billing.RetAct"
+137-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:109:13-35
+138            android:icon="@android:color/transparent"
+138-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:110:13-54
+139            android:label="Return" />
+139-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:111:13-35
+140        <activity
+140-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:112:9-115:39
+141            android:name="com.tsysinfo.billing.ReceiptActivity"
+141-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:113:13-44
+142            android:icon="@android:color/transparent"
+142-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:114:13-54
+143            android:label="Receipt" />
+143-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:115:13-36
+144        <activity
+144-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:116:9-119:43
+145            android:name="com.tsysinfo.billing.outActivity"
+145-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:117:13-40
+146            android:icon="@android:color/transparent"
+146-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:118:13-54
+147            android:label="OutStanding" />
+147-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:119:13-40
+148        <activity
+148-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:120:9-123:43
+149            android:name="com.tsysinfo.billing.OutCustmerActivity"
+149-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:121:13-47
+150            android:icon="@android:color/transparent"
+150-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:122:13-54
+151            android:label="OutStanding" />
+151-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:123:13-40
+152        <activity
+152-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:124:9-127:39
+153            android:name="com.tsysinfo.billing.PaymentActivity"
+153-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:125:13-44
+154            android:icon="@android:color/transparent"
+154-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:126:13-54
+155            android:label="Payment" />
+155-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:127:13-36
+156        <activity
+156-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:128:9-131:44
+157            android:name="com.tsysinfo.billing.BillPayment"
+157-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:129:13-40
+158            android:icon="@android:color/transparent"
+158-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:130:13-54
+159            android:label="Bill Payment" />
+159-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:131:13-41
+160        <activity
+160-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:132:9-135:32
+161            android:name="com.tsysinfo.billing.BranchActivity"
+161-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:133:13-43
+162            android:icon="@android:color/transparent"
+162-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:134:13-54
+163            android:label="" />
+163-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:135:13-29
+164        <activity
+164-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:136:9-139:32
+165            android:name="com.tsysinfo.billing.MapActivity"
+165-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:137:13-40
+166            android:icon="@android:color/transparent"
+166-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:138:13-54
+167            android:label="" />
+167-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:139:13-29
+168        <activity
+168-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:140:9-143:40
+169            android:name="com.tsysinfo.billing.AddCustomerActivity"
+169-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:141:13-48
+170            android:icon="@android:color/transparent"
+170-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:142:13-54
+171            android:label="Customer" />
+171-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:143:13-37
+172        <activity
+172-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:144:9-147:32
+173            android:name="com.tsysinfo.billing.ForgotPasswordActivity"
+173-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:145:13-51
+174            android:icon="@android:color/transparent"
+174-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:146:13-54
+175            android:label="" />
+175-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:147:13-29
+176        <activity
+176-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:148:9-151:32
+177            android:name="com.tsysinfo.billing.Map1"
+177-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:149:13-33
+178            android:icon="@android:color/transparent"
+178-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:150:13-54
+179            android:label="" />
+179-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:151:13-29
+180        <activity
+180-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:152:9-155:40
+181            android:name="com.tsysinfo.billing.FeedbackActivity"
+181-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:153:13-45
+182            android:icon="@android:color/transparent"
+182-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:154:13-54
+183            android:label="Feedback" />
+183-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:155:13-37
+184        <activity
+184-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:156:9-159:36
+185            android:name="com.tsysinfo.billing.HelpActivity"
+185-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:157:13-41
+186            android:icon="@android:color/transparent"
+186-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:158:13-54
+187            android:label="Help" />
+187-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:159:13-33
+188        <!--
+189             ATTENTION: This was auto-generated to add Google Play services to your project for
+190             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+191        -->
+192        <activity
+192-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:164:9-167:42
+193            android:name="com.tsysinfo.billing.CustVisitActivity"
+193-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:165:13-46
+194            android:icon="@android:color/transparent"
+194-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:166:13-54
+195            android:label="Cust Visit" />
+195-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:167:13-39
+196        <activity android:name="com.tsysinfo.billing.DeviceListActivity" />
+196-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:168:9-56
+196-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:168:19-53
+197        <activity
+197-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:170:9-173:32
+198            android:name="com.tsysinfo.billing.ReturnInvoice"
+198-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:171:13-42
+199            android:icon="@android:color/transparent"
+199-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:172:13-54
+200            android:label="" />
+200-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:173:13-29
+201        <!--
+202            <service
+203            android:name=".GpsService"
+204            android:enabled="true"
+205            android:exported="true"></service>
+206        -->
+207        <activity
+207-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:180:9-182:53
+208            android:name="com.tsysinfo.billing.BarcodeScannerActivity"
+208-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:181:13-51
+209            android:screenOrientation="landscape" />
+209-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:182:13-50
+210        <activity android:name="com.tsysinfo.billing.BarcodePrintActivity" />
+210-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:183:9-58
+210-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:183:19-55
+211        <activity
+211-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:184:9-187:47
+212            android:name="com.tsysinfo.billing.barcodes.CustomViewFinderScannerActivity"
+212-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:185:13-69
+213            android:label="@string/custom_view_finder_scanner_activity"
+213-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:186:13-72
+214            android:theme="@style/AppTheme" />
+214-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:187:13-44
+215        <activity
+215-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:188:9-197:20
+216            android:name="com.tsysinfo.billing.barcodes.FullScannerActivity"
+216-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:189:13-57
+217            android:label="@string/scanner_activity"
+217-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:190:13-53
+218            android:screenOrientation="landscape"
+218-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:191:13-50
+219            android:theme="@style/AppOverlayTheme"
+219-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:192:13-51
+220            android:uiOptions="splitActionBarWhenNarrow" >
+220-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:193:13-57
+221            <meta-data
+221-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:194:13-196:60
+222                android:name="android.support.UI_OPTIONS"
+222-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:195:17-58
+223                android:value="splitActionBarWhenNarrow" />
+223-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:196:17-57
+224        </activity>
+225        <activity
+225-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:198:9-206:20
+226            android:name="com.tsysinfo.billing.barcodes.FullScannerFragmentActivity"
+226-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:199:13-65
+227            android:label="@string/scanner_fragment_activity"
+227-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:200:13-62
+228            android:theme="@style/AppOverlayTheme"
+228-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:201:13-51
+229            android:uiOptions="splitActionBarWhenNarrow" >
+229-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:202:13-57
+230            <meta-data
+230-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:194:13-196:60
+231                android:name="android.support.UI_OPTIONS"
+231-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:195:17-58
+232                android:value="splitActionBarWhenNarrow" />
+232-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:196:17-57
+233        </activity>
+234        <activity android:name="com.tsysinfo.billing.FinishActivity" />
+234-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:207:9-52
+234-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:207:19-49
+235        <activity
+235-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:208:9-210:57
+236            android:name="com.tsysinfo.billing.MainActivity"
+236-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:209:13-41
+237            android:theme="@style/AppTheme1" />
+237-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:210:13-45
+238        <activity android:name="com.tsysinfo.billing.PermissionActivityActivity" />
+238-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:211:9-64
+238-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:211:19-61
+239        <activity android:name="com.tsysinfo.billing.OrderListActivity" />
+239-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:212:9-55
+239-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:212:19-52
+240        <activity android:name="com.tsysinfo.billing.OrderDetailsActivity" />
+240-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:213:9-58
+240-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:213:19-55
+241        <activity android:name="com.tsysinfo.billing.ZoomImageViewActivity" />
+241-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:214:9-59
+241-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:214:19-56
+242        <activity android:name="com.tsysinfo.billing.TownActivity" /> <!-- <activity android:name=".UncheduledOrderActivity" /> -->
+242-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:215:9-50
+242-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:215:19-47
+243        <activity
+243-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:216:9-219:45
+244            android:name="com.tsysinfo.billing.GeoTagUpdatesActivity"
+244-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:217:13-50
+245            android:icon="@android:color/transparent"
+245-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:218:13-54
+246            android:label="Geotag Update" />
+246-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:219:13-42
+247        <activity
+247-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:220:9-223:46
+248            android:name="com.tsysinfo.billing.CustomerVisiteActivity"
+248-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:221:13-51
+249            android:icon="@android:color/transparent"
+249-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:222:13-54
+250            android:label="Customer Visit" />
+250-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:223:13-43
+251        <activity
+251-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:224:9-227:41
+252            android:name="com.tsysinfo.billing.DashBoardActivity"
+252-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:225:13-46
+253            android:icon="@android:color/transparent"
+253-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:226:13-54
+254            android:label="DashBoard" />
+254-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:227:13-38
+255        <activity
+255-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:228:9-231:44
+256            android:name="com.tsysinfo.billing.ChequeInHandActivity"
+256-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:229:13-49
+257            android:icon="@android:color/transparent"
+257-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:230:13-54
+258            android:label="ChequeInHand" />
+258-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:231:13-41
+259        <activity android:name="com.tsysinfo.billing.ExpenseActivity" />
+259-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:232:9-53
+259-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:232:19-50
+260
+261        <meta-data
+261-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:233:9-235:69
+262            android:name="com.google.android.gms.version"
+262-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:234:13-58
+263            android:value="@integer/google_play_services_version" />
+263-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:235:13-66
+264        <meta-data
+264-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:236:9-238:71
+265            android:name="com.google.android.maps.v2.API_KEY"
+265-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:237:13-62
+266            android:value="AIzaSyCk9_Tw4i2t-VYhonbeB0vZk1Eu_2UQYvw" />
+266-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:238:13-68
+267
+268        <receiver android:name="com.tsysinfo.billing.AlarmReceiver" />
+268-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:239:9-51
+268-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:239:19-48
+269        <receiver android:name="com.tsysinfo.billing.LocationReceiver" />
+269-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:240:9-54
+269-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:240:19-51
+270
+271        <provider
+271-->[com.squareup.picasso:picasso:2.71828] C:\Users\DELL\.gradle\caches\transforms-3\174c9a87c8ecebd823392ad75dc1be75\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+272            android:name="com.squareup.picasso.PicassoProvider"
+272-->[com.squareup.picasso:picasso:2.71828] C:\Users\DELL\.gradle\caches\transforms-3\174c9a87c8ecebd823392ad75dc1be75\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+273            android:authorities="com.tsysinfo.billing.com.squareup.picasso"
+273-->[com.squareup.picasso:picasso:2.71828] C:\Users\DELL\.gradle\caches\transforms-3\174c9a87c8ecebd823392ad75dc1be75\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+274            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+274-->[com.squareup.picasso:picasso:2.71828] C:\Users\DELL\.gradle\caches\transforms-3\174c9a87c8ecebd823392ad75dc1be75\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+275        <activity
+275-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:26:9-29:64
+276            android:name="com.google.android.gms.ads.AdActivity"
+276-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:27:13-65
+277            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+277-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:28:13-122
+278            android:theme="@android:style/Theme.Translucent" />
+278-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:29:13-61
+279        <activity
+279-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:30:9-31:52
+280            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+280-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:30:19-91
+281            android:theme="@style/Theme.IAPTheme" />
+281-->[com.google.android.gms:play-services-ads:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\d782c9983414fff982c46eb46f140f7a\transformed\play-services-ads-8.4.0\AndroidManifest.xml:31:13-50
+282        <activity
+282-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:21:9-29:20
+283            android:name="com.google.android.gms.appinvite.PreviewActivity"
+283-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:22:17-48
+284            android:exported="true"
+284-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:23:17-40
+285            android:theme="@style/Theme.AppInvite.Preview" >
+285-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:24:17-63
+286            <intent-filter>
+286-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:25:13-28:29
+287                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+287-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:26:17-89
+287-->[com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\553c64da9b2adfbf4ac8edc14975d85f\transformed\play-services-appinvite-8.4.0\AndroidManifest.xml:26:25-87
+288
+289                <category android:name="android.intent.category.DEFAULT" />
+289-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:33:17-76
+289-->D:\AndroidProjects\Billing India\app\src\main\AndroidManifest.xml:33:27-73
+290            </intent-filter>
+291        </activity>
+292        <activity
+292-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:21:9-24:46
+293            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+293-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:21:19-72
+294            android:excludeFromRecents="true"
+294-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:23:19-52
+295            android:exported="false"
+295-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:24:19-43
+296            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+296-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:22:19-78
+297        <!--
+298Service handling Google Sign-In user revocation. For apps that do not integrate with
+299            Google Sign-In, this service will never be started.
+300        -->
+301        <service
+301-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:28:9-31:110
+302            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+302-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:29:13-62
+303            android:exported="true"
+303-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:30:13-36
+304            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+304-->[com.google.android.gms:play-services-auth:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a134013a92f81992bf99e33eabceb37b\transformed\play-services-auth-8.4.0\AndroidManifest.xml:31:13-107
+305
+306        <provider
+306-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:28:7-31:37
+307            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+307-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:30:11-90
+308            android:authorities="com.tsysinfo.billing.google_measurement_service"
+308-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:29:11-76
+309            android:exported="false" />
+309-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:31:11-35
+310
+311        <receiver
+311-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:33:7-39:18
+312            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+312-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:34:11-83
+313            android:enabled="true" >
+313-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:35:11-33
+314            <intent-filter>
+314-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:36:9-38:25
+315                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+315-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:37:11-77
+315-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:37:19-75
+316            </intent-filter>
+317        </receiver>
+318
+319        <service
+319-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:41:7-44:37
+320            android:name="com.google.android.gms.measurement.AppMeasurementService"
+320-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:42:11-82
+321            android:enabled="true"
+321-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:43:11-33
+322            android:exported="false" />
+322-->[com.google.android.gms:play-services-measurement:8.4.0] C:\Users\DELL\.gradle\caches\transforms-3\c04db5254de6ec6a0fdf96b89926ac72\transformed\play-services-measurement-8.4.0\AndroidManifest.xml:44:11-35
+323    </application>
+324
+325</manifest>

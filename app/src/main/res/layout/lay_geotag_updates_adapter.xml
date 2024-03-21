@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linerlayout">
+
+            <TextView
+                android:id="@+id/CName"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/GPSLatitude"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                />
+            <TextView
+                android:id="@+id/GPSLongitude"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+            <TextView
+                android:id="@+id/UpdatedTStmp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            />
+
+        </LinearLayout>
+
+</LinearLayout>
